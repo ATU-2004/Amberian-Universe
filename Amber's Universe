@@ -50,7 +50,7 @@ TEAM,B1G,West,Indiana,IND,70,WVU
 TEAM,B1G,West,Purdue,PUR,60,MAR
 TEAM,B1G,West,Illinois,ILL,65,OSU
 TEAM,B1G,West,Northwestern,NW,60,RUT
-#Big 12
+# Big 12
 TEAM,Big 12,North,Notre Dame,ND,95,SMU
 TEAM,Big 12,North,Nebraska,NEB,80,TEX
 TEAM,Big 12,North,Iowa State,ISU,75,BAY
@@ -65,7 +65,7 @@ TEAM,Big 12,South,TCU,TCU,75,KSU
 TEAM,Big 12,South,Texas Tech,TTU,75,KAN
 TEAM,Big 12,South,SMU,SMU,75,ND
 TEAM,Big 12,South,Louisiana Tech,LAT,70,NIU
-#Pac-12
+# Pac-12
 TEAM,Pac-12,North,Oregon,ORE,90,UTAH
 TEAM,Pac-12,North,Washington,WASH,80,ARIZ
 TEAM,Pac-12,North,Boise State,BSU,80,BYU
@@ -79,13 +79,13 @@ TEAM,Pac-12,South,BYU,BYU,75,BSU
 TEAM,Pac-12,South,Arizona State,ASU,75,WSU
 TEAM,Pac-12,South,Arizona,ARIZ,70,WASH
 TEAM,Pac-12,South,UCLA,UCLA,80,CAL
-TEAM,Pac-12,South,Colorado,COL,65,OrST
-#American
+TEAM,Pac-12,South,Colorado,COL,65,ORST
+# American
 TEAM,American,West,Memphis,MEM,80,CIN
 TEAM,American,West,Death Valley State,DVSU,75,UGF
 TEAM,American,West,Kalispell,KC,85,APST
 TEAM,American,West,New Quadania State,NQSU,95,LIB
-TEAM,American,West,Wisconsin State,WIST,55,WIST
+TEAM,American,West,Wisconsin State,WIST,55,TEM
 TEAM,American,West,UAB,UAB,60,UCF
 TEAM,American,West,Air Force,AF,75,NAVY
 TEAM,American,East,Cincinnati,CIN,80,MEM
