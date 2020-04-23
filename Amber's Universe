@@ -10,7 +10,7 @@ American,East,West
 TEAM,SEC,West,Alabama,ALA,90,TEN
 TEAM,SEC,West,Auburn,AUB,85,UGA
 TEAM,SEC,West,LSU,LSU,95,UF
-TEAM,SEC,West,Texas A&M,TAMU,80,MIS
+TEAM,SEC,West,Texas A&M,TAMU,80,MIZ
 TEAM,SEC,West,Mississippi State,MSST,75,KEN
 TEAM,SEC,West,Ole Miss,MIS,75,VAN
 TEAM,SEC,West,Arkansas,ARK,70,SCAR
@@ -20,6 +20,7 @@ TEAM,SEC,East,Tennessee,TEN,80,ALA
 TEAM,SEC,East,South Carolina,SCAR,80,ARK
 TEAM,SEC,East,Kentucky,KEN,75,MSST
 TEAM,SEC,East,Vanderbilt,VAN,60,MIS
+TEAM,SEC,East,Missouri,MIZ,70,TAMU
 # ACC
 TEAM,ACC,Atlantic,Clemson,CLEM,95,GT
 TEAM,ACC,Atlantic,Florida State,FSU,80,MIA
