@@ -5,7 +5,7 @@ B1G,East,West
 Big 12,North,South
 Pac 12,North,South
 American,East,West
-# TEAM
+# Team format:,Conference,Division,Name,Abbr,Prestige,Rival
 # SEC
 TEAM,SEC,East,Georgia,UGA,90,AUB
 TEAM,SEC,East,Florida,UF,85,LSU
@@ -96,4 +96,5 @@ TEAM,American,East,Appalachian St,APST,75,KC
 TEAM,American,East,Navy,NAVY,75,AF
 TEAM,American,East,Temple,TEM,70,WIST
 TEAM,American,East,Liberty,LIB,60,NQSU
+
 END_FILE
