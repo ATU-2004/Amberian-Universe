@@ -1,107 +1,99 @@
 Eva's Universe
-# Format: Conference name, Division A, Division B
-SEC,East,West
-ACC,Atlantic,Coastal
-B1G,East,West
-Big 12,North,South
-Pac 12,North,South
-American,East,West
-# Team format:,Conference,Division,Name,Abbr,Prestige,Rival
-# SEC East
-TEAM,SEC,East,Georgia,UGA,90,AUB
-TEAM,SEC,East,Florida,UF,85,LSU
-TEAM,SEC,East,Tennessee,TEN,80,ALA
-TEAM,SEC,East,South Carolina,SCAR,80,ARK
-TEAM,SEC,East,Kentucky,KEN,75,MSST
-TEAM,SEC,East,Missouri,MIZ,70,TAMU
-TEAM,SEC,East,Vanderbilt,VAN,60,MIS
-# SEC West
-TEAM,SEC,West,LSU,LSU,95,UF
-TEAM,SEC,West,Alabama,ALA,90,TEN
-TEAM,SEC,West,Auburn,AUB,85,UGA
-TEAM,SEC,West,Texas A&M,TAMU,80,MIZ
-TEAM,SEC,West,Miss State,MSST,75,KEN
-TEAM,SEC,West,Ole Miss,MIS,75,VAN
-TEAM,SEC,West,Arkansas,ARK,70,SCAR
-# ACC Atlantic
-TEAM,ACC,Atlantic,Clemson,CLEM,95,GT
-TEAM,ACC,Atlantic,Florida State,FSU,80,MIA
-TEAM,ACC,Atlantic,Wake Forest,WAKE,80,DUKE
-Team,ACC,Atlantic,Boston College,BC,80,VT
-TEAM,ACC,Atlantic,Louisville,LOU,75,UVA
-TEAM,ACC,Atlantic,Syracuse,SYR,75,SYR
-TEAM,ACC,Atlantic,NC State,NCST,70,UNC
-# ACC Coastal
-TEAM,ACC,Coastal,Virginia Tech,VT,85,BC
-TEAM,ACC,Coastal,Virginia,UVA,85,LOU
-TEAM,ACC,Coastal,North Carolina,UNC,80,NCST
-TEAM,ACC,Coastal,Miami,MIA,80,FSU
-TEAM,ACC,Coastal,Georgia Tech,GT,75,CLEM
-TEAM,ACC,Coastal,Pittsburgh,PITT,75,SYR
-TEAM,ACC,Coastal,Duke,DUKE,65,WAKE
-# B1G East
-TEAM,B1G,East,Ohio State,OSU,95,ILL
-TEAM,B1G,East,Michigan,MICH,90,MINN
-TEAM,B1G,East,Penn State,PSU,90,IOWA
-TEAM,B1G,East,Michigan State,MSU,80,WIS
-TEAM,B1G,East,West Virginia,WVU,75,IND
-TEAM,B1G,East,Maryland,MAR,70,PUR
-TEAM,B1G,East,Rutgers,RUT,60,NW
-# B1G West
-TEAM,B1G,West,Wisconsin,WIS,85,MSU
-TEAM,B1G,West,Minnesota,MINN,80,MICH
-TEAM,B1G,West,Iowa,IOWA,80,PSU
-TEAM,B1G,West,Indiana,IND,70,WVU
-TEAM,B1G,West,Illinois,ILL,65,OSU
-TEAM,B1G,West,Northwestern,NW,60,RUT
-TEAM,B1G,West,Purdue,PUR,60,MAR
-# Big 12 North
-TEAM,Big 12,North,Notre Dame,ND,95,SMU
-TEAM,Big 12,North,Nebraska,NEB,80,TEX
-TEAM,Big 12,North,Oklahoma State,OKST,80,OU
-TEAM,Big 12,North,Iowa State,ISU,75,BAY
-TEAM,Big 12,North,Kansas State,KSU,75,TCU
-TEAM,Big 12,North,N Illinois,NIU,65,LAT
-TEAM,Big 12,North,Kansas,KAN,60,TTU
-# Big 12 South
-TEAM,Big 12,South,Oklahoma,OU,95,OKST
-TEAM,Big 12,South,Texas,TEX,90,NEB
-TEAM,Big 12,South,Baylor,BAY,80,ISU
-TEAM,Big 12,South,TCU,TCU,75,KSU
-TEAM,Big 12,South,Texas Tech,TTU,75,KAN
-TEAM,Big 12,South,SMU,SMU,75,ND
-TEAM,Big 12,South,LA Tech,LAT,70,NIU
-# Pac-12 North
-TEAM,Pac-12,North,Oregon,ORE,90,UTAH
-TEAM,Pac-12,North,Washington,WASH,80,ARIZ
-TEAM,Pac-12,North,Boise State,BSU,80,BYU
-TEAM,Pac-12,North,Washington State,WSU,75,ASU
-TEAM,Pac-12,North,Stanford,STAN,75,USC
-TEAM,Pac-12,North,California,CAL,70,UCLA
-TEAM,Pac-12,North,Oregon State,ORST,65,COL
-# Pac-12 South
-TEAM,Pac-12,South,USC,USC,90,STAN
-TEAM,Pac-12,South,Utah,UTAH,80,ORE
-TEAM,Pac-12,South,UCLA,UCLA,80,CAL
-TEAM,Pac-12,South,BYU,BYU,75,BSU
-TEAM,Pac-12,South,Arizona State,ASU,75,WSU
-TEAM,Pac-12,South,Arizona,ARIZ,70,WASH
-TEAM,Pac-12,South,Colorado,COL,65,ORST
-# American West
-TEAM,American,West,New Quadania St,NQSU,95,LIB
-TEAM,American,West,Kalispell,KC,85,APST
-TEAM,American,West,Memphis,MEM,80,CIN
-TEAM,American,West,Death Valley St,DVSU,75,UGF
-TEAM,American,West,Air Force,AF,75,NAVY
-TEAM,American,West,UAB,UAB,60,UCF
-TEAM,American,West,Wisconsin State,WIST,55,TEM
-# American East
-TEAM,American,East,UGF,UGF,90,DVSU
-TEAM,American,East,Cincinnati,CIN,80,MEM
-TEAM,American,East,UCF,UCF,80,UAB
-TEAM,American,East,Appalachian St,APST,75,KC
-TEAM,American,East,Navy,NAVY,75,AF
-TEAM,American,East,Temple,TEM,70,WIST
-TEAM,American,East,Liberty,LIB,60,NQSU
-
+SEC,East,West,,,,,,,
+ACC,Atlantic,Coastal,,,,,,,
+Big Ten,East,West,,,,,,,
+Big 12,Sheriff,Outlaw,,,,,,,
+Pac 12,North,South,,,,,,,
+AAC,East,West,,,,,,,
+# Team format:,Conference,Division,Name,Abbr,Prestige,Rival,,,
+# SEC,,,,,,,,,
+TEAM,SEC,West,Alabama,ALA,95,TEN,,,
+TEAM,SEC,West,Texas A&M,TAMU,85,SCAR,,,
+TEAM,SEC,West,LSU,LSU,85,UF,,,
+TEAM,SEC,West,Auburn,AUB,85,UGA,,,
+TEAM,SEC,West,Mississippi St,MSST,75,UK,,,
+TEAM,SEC,West,Ole Miss,MISS,75,VAN,,,
+TEAM,SEC,West,Arkansas,ARK,70,MIZ,,,
+TEAM,SEC,East,Georgia,UGA,90,AUB,,,
+TEAM,SEC,East,Florida,UF,90,LSU,,,
+TEAM,SEC,East,Tennessee,TEN,80,ALA,,,
+TEAM,SEC,East,South Carolina,SCAR,75,TAMU,,,
+TEAM,SEC,East,Missouri,MIZ,75,ARK,,,
+TEAM,SEC,East,Kentucky,UK,70,MSST,,,
+TEAM,SEC,East,Vanderbilt,VAN,60,MISS,,,
+# ACC,,,,,,,,,
+TEAM,ACC,Atlantic,Clemson,CLEM,95,GT,,,
+TEAM,ACC,Atlantic,Florida St,FSU,90,UM,,,
+TEAM,ACC,Atlantic,Louisville,LOU,80,UVA,,,
+TEAM,ACC,Atlantic,NC State,NCST,80,UNC,,,
+TEAM,ACC,Atlantic,Syracuse,SYR,75,PITT,,,
+TEAM,ACC,Atlantic,Boston College,BC,70,VT,,,
+TEAM,ACC,Atlantic,Wake Forest,WF,60,DUKE,,,
+TEAM,ACC,Coastal,Miami,UM,90,FSU,,,
+TEAM,ACC,Coastal,Virginia Tech,VT,85,BC,,,
+TEAM,ACC,Coastal,UNC,UNC,80,NCST,,,
+TEAM,ACC,Coastal,Pittsburgh,PITT,75,SYR,,,
+TEAM,ACC,Coastal,Georgia Tech,GT,75,CLEM,,,
+TEAM,ACC,Coastal,Duke,DUKE,65,WF,,,
+TEAM,ACC,Coastal,Virginia,UVA,60,LOU,,,
+# B10,,,,,,,,,
+TEAM,Big Ten,West,Wisconsin,WIS,90,MSU,,,
+TEAM,Big Ten,West,Nebraska,NEB,85,OSU,,,
+TEAM,Big Ten,West,Iowa,IOWA,80,PSU,,,
+TEAM,Big Ten,West,Northwestern,NW,75,RUT,,,
+TEAM,Big Ten,West,Purdue,PUR,70,MD,,,
+TEAM,Big Ten,West,Minnesota,MINN,65,MICH,,,
+TEAM,Big Ten,West,Illinois,ILL,60,MD,,,
+TEAM,Big Ten,East,Ohio State,OSU,95,NEB,,,
+TEAM,Big Ten,East,Michigan,MICH,93,MINN,,,
+TEAM,Big Ten,East,Penn State,PSU,90,IOWA,,,
+TEAM,Big Ten,East,Michigan St,MSU,85,WIS,,,
+TEAM,Big Ten,East,Maryland,MD,75,ILL,,,
+TEAM,Big Ten,East,Indiana,IND,65,MINN,,,
+TEAM,Big Ten,East,Rutgers,RUT,55,NW,,,
+# Big 12,,,,,,,,,
+TEAM,Big 12,Sheriff,Texas,TEX,90,OKL,,,
+TEAM,Big 12,Sheriff,Iowa State,ISU,75,BAY,,,
+TEAM,Big 12,Sheriff,TCU,TCU,80,OKST,,,
+TEAM,Big 12,Sheriff,North Dakota State,NDSU,70,KSU,,,
+TEAM,Big 12,Sheriff,South Dakota State,SDSU,55,KU,,,
+TEAM,Big 12,Sheriff,Texas Tech,TTU,75,WVU,,,
+TEAM,Big 12,Sheriff,Houston,HOU,60,SMU,,,
+TEAM,Big 12,Outlaw,Baylor,BAY,70,ISU,,,
+TEAM,Big 12,Outlaw,Oklahoma,OKL,95,TEX,,,
+TEAM,Big 12,Outlaw,Oklahoma St,OKST,85,TCU,,,
+TEAM,Big 12,Outlaw,Kansas St,KSU,80,NDSU,,,
+TEAM,Big 12,Outlaw,West Virginia,WVU,80,TTU,,,
+TEAM,Big 12,Outlaw,SMU,SMU,60,HOU,,,
+TEAM,Big 12,Outlaw,Kansas,KU,50,SDSU,,,
+# Pac 12,,,,,,,,,
+TEAM,Pac 12,North,Oregon,ORE,90,UTAH,,,
+TEAM,Pac 12,North,Boise State,BSU,75,BYU,,,
+TEAM,Pac 12,North,Washington,WASH,85,ARIZ,,,
+TEAM,Pac 12,North,Stanford,STAN,85,USC,,,
+TEAM,Pac 12,North,Washington St,WSU,75,ASU,,,
+TEAM,Pac 12,North,California,CAL,70,UCLA,,,
+TEAM,Pac 12,North,Oregon St,ORST,60,COLO,,,
+TEAM,Pac 12,South,USC,USC,90,STAN,,,
+TEAM,Pac 12,South,UCLA,UCLA,85,CAL,,,
+TEAM,Pac 12,South,Utah,UTAH,75,ORE,,,
+TEAM,Pac 12,South,BYU,BYU,75,BSU,,,
+TEAM,Pac 12,South,Arizona,ARIZ,75,WASH,,,
+TEAM,Pac 12,South,Arizona St,ASU,70,WSU,,,
+TEAM,Pac 12,South,Colorado,COLO,65,ORST,,,
+# AAC,,,,,,,,,
+TEAM,American,West,Death Valley State,DVSU,65,UGF,,,
+TEAM,American,West,Kalispell,KC,75,APP,,,
+TEAM,American,West,North Texas,UNT,65,FAU,,,
+TEAM,American,West,Louisiana Tech,LAT,60,UCF,,,
+TEAM,American,West,Memphis,MEM,80,CIN,,,
+TEAM,American,West,Notre Dame,ND,90,TEM,,,
+TEAM,American,West,Navy,NAVY,75,ARMY,,,
+TEAM,American,East,Army,ARMY,70,NAVY,,,
+TEAM,American,East,UGF,UGF,80,DVSU,,,
+TEAM,American,East,UCF,UCF,80,LAT,,,
+TEAM,American,East,Cincinnati,CIN,75,MEM,,,
+TEAM,American,East,Appalachian State,APP,75,KC,,,
+TEAM,American,East,Temple,TEM,70,ND,,,
+TEAM,American,East,FAU,FAU,70,UNT,,,
 END_FILE
